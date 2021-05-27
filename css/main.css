@@ -41,7 +41,7 @@ h3 {
 p {
 	font-size: .875em;
 	line-height: 21px;
-    padding: 0 30px;
+    padding: 0;
 }
 
 /*The widths are in a percentage!*/
@@ -117,7 +117,6 @@ header nav ul li a{
 	height: auto;
 }
 .main-title h2 {
-	text-align: center;
 	padding: 5px 0;
 	color: #77a466;
 }
@@ -125,8 +124,7 @@ header nav ul li a{
 	padding: 0;
 	font-size: 1em;
 	line-height: 25px;
-	text-align: center;
-}
+	}
 
 .section-one,
 .section-two,
@@ -134,21 +132,15 @@ header nav ul li a{
 	width: 100%;
 	height: auto;
 	border-top: 1px solid #eee;
-	text-align: center;
 }
 
 .section-one h3 {
 	padding: 10px 0;
 }
 
-.section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-}
-
 .section-two h3,
 .section-three h3 {
-	padding: 10px 30px;
+	padding: 10px 10px;
 }
 
 .menu {
