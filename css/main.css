@@ -216,6 +216,11 @@ footer {
 	border-top: none;
 }
 
+.section-two h3,
+.section-three h3 {
+	padding: 10px 20px;
+}
+
 }
 
 @media all and (min-width:1200px) {
@@ -224,18 +229,17 @@ header {
 	width: 100%;
 	display: flex;
 	flex-direction: row;
-  justify-content: space-between;
+	justify-content: flex-start;
 }
 
 header nav ul {
-	padding: 40px 10px;
 	display: flex;
 	flex-direction: row;
-	align-items: center;
+	justify-content: flex-end;
 }
 
 header h1 {
-  width: 40%;
+	width: 40%;
   padding: 40px 10px;
   border-bottom: none;
   text-align: left;
