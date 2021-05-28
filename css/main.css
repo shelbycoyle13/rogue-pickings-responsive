@@ -46,6 +46,7 @@ p {
 
 /*The widths are in a percentage!*/
 header {
+	width: 100%;
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
@@ -54,6 +55,7 @@ header {
 }
 
 header h1 {
+	width: 100%;
 	margin: 0;
 	padding: 20px 20px 10px 20px;
 	display: block;
@@ -64,7 +66,9 @@ header h1 span {
 }
 
 header nav {
+	width: 100%;
 	padding: 0 0 10px 0;
+	text-align: center;
 }
 header nav ul {
 	margin: 0;
@@ -76,10 +80,7 @@ header nav ul li {
 	font-size: .875em;
 	line-height: 3em;
 	padding: 0 10px;
-	display: flex;
-	align-items: center;
-	flex-direction: row;
-	align-content: space-between;
+	list-style-type: none;
 }
 header nav ul li a{
 	text-decoration: none;
@@ -164,6 +165,7 @@ header nav ul li a{
 
 /*The widths are in a percentage!*/
 footer {
+	width: 100%;
 	border-top: 3px solid #eee;
 	margin: 0 auto;
 	text-align: center;
